@@ -1,0 +1,83 @@
+.headerContainer {
+  background: var(--gray-700);
+  color: var(--white);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 16px 100px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  gap: 1rem;
+}
+
+.headerLogo {
+  margin-right: 17.1875rem;
+}
+
+.listMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.itemMenu {
+  color: var(--white);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.headerSearch {
+  display: flex;
+  width: 263px;
+  height: 19px;
+  padding: 0px 31px 0px 78px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.contentSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentSearch img {
+  margin-right: .6875rem;
+}
+
+.contentSearch input {
+  background-color: transparent;
+  border: none;
+
+}
+
+.contentSearch input ::placeholder {
+  color: var(--white);
+}
+
+.headerCart {
+  margin-left: 1rem;
+}
+
+.iconBag{
+  margin-right: .25rem;
+}

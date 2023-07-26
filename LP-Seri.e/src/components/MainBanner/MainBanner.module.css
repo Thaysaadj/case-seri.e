@@ -1,0 +1,68 @@
+.sectionMainBanner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainBanner {
+  position: relative;
+  width: 100vw;
+}
+
+.containerTextMainBanner {
+  position: absolute;
+  bottom: -112px;
+  left: 34%;
+}
+
+.textMainBanner {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 19.2px;
+  text-transform: uppercase;
+}
+
+.linkMainBanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkMainBanner a {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 2.88px;
+  text-transform: uppercase;
+  margin-top: 1.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkMainBanner a img{
+  margin-left: 13px;
+}
+
+
+.containerMainBanner {
+  margin-bottom: -4px;
+}
+
+.sectionSecondariBanner {
+  display: flex;
+}
+
+.containerSeconderiBanner {
+  margin-right: -4px;
+}
