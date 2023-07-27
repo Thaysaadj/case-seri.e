@@ -21,11 +21,11 @@ export function Header() {
         </ul>
       </nav>
       <div className={styles.headerSearch}>
-        <content className={styles.contentSearch}>
+        <div className={styles.contentSearch}>
           <img src={Lupa} alt="lupa" />
           <input type="text" placeholder="BUSCAR PRODUTO..."
           />
-        </content>
+        </div>
       </div>
       <div className={styles.headerUser}>
         <img src={User} alt="" />

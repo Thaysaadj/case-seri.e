@@ -1,0 +1,56 @@
+.sectionCard{
+  width: 100%;
+}
+
+.infoCard{
+  gap: 6px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 338px;
+  justify-content: center;
+  height: 598px;
+}
+
+.imageCard{
+  width: 338px;
+  height: 530px;
+}
+
+.imageCard img{
+  width: 100%;
+}
+
+.containerText{
+  width: 338px;
+  height: auto;
+}
+
+.nameProduct p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.oldPrice p {
+  color: #BBB;
+  font-family: Arimo;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}
+
+.newPrice p {
+  color: #000;
+  font-family: Arimo;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}

@@ -1,0 +1,8 @@
+.contentHelp{
+  position: fixed;
+  z-index: 9999;
+  width: 265px;
+  height: 52px;
+  bottom: 0;
+  right: 25px;
+}

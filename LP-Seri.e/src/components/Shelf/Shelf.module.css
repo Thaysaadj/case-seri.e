@@ -1,0 +1,31 @@
+.contentArrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  /* width: 100%; */
+  /* max-width: 1122px; */
+}
+
+.arrowLeft{
+  width: 85%;
+}
+
+.containerShelf{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 72px;
+
+}
+
+.shelf{
+  display: flex;
+  gap: 6px;
+  overflow-x: scroll;
+}
+
+.shelf::-webkit-scrollbar {
+  display: none;         
+}
+

@@ -9,6 +9,37 @@
   width: 100%;
   padding: 16px 100px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width:1024px) {
+    .headerContainer{
+      padding: 16px 19px;
+    }
+
+    .header{
+      max-width: none;
+      width: 100%;
+    }
+
+    .headerLogo{
+      margin-right: 13.1875rem;
+    }
+
+    .headerMenu{
+      width: 17.8125rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .itemMenu{
+      font-size: .625rem;
+    } 
+
+    .headerSearch {
+      width: 225px;
+      padding: 0px 10px 0px 78px;
+    }
+  }
 }
 
 .header {
@@ -17,12 +48,16 @@
   margin: 0 auto;
   justify-content: space-between;
   max-width: 1170px;
-  width: 100%;
+  /* width: 100%; */
   gap: 1rem;
 }
 
+.headerMenu{
+  width: 22.8125rem;
+}
+
 .headerLogo {
-  margin-right: 17.1875rem;
+  margin-right: 16.1875rem;
 }
 
 .listMenu {
@@ -76,8 +111,13 @@
 
 .headerCart {
   margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .iconBag{
   margin-right: .25rem;
 }
+
+

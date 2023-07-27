@@ -15,11 +15,10 @@ export function MainBanner() {
           <div className={styles.linkMainBanner}>
             <a>Acessar Já <img src={Arrow} alt="" /></a>
           </div>
-
         </div>
       </div>
       <section className={styles.sectionSecondariBanner}>
-        <div className={styles.containerSeconderiBanner}>
+        <div className={styles.containerBannerRight}>
           <img src={BannerRight} alt="Banner Direito" />
           <div className={styles.containerTextBannerRight}>
             <p className={styles.textBannerRight}>Lorem ipsum dolor. </p>
@@ -28,7 +27,7 @@ export function MainBanner() {
             </div>
           </div>
         </div>
-        <div>
+        <div className={styles.containerBannerLeft}>
           <img src={BannerLef} alt="Banner Esquerdo" />
           <div className={styles.containerTextBannerLeft}>
             <p className={styles.textBannerLeft}>Lorem ipsum dolor. </p>
