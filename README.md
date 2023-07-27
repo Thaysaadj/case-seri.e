@@ -4,10 +4,10 @@
 - Teste JavaScript - Disponível dentro do repositório em Pasta2.
 
 ## Técnologias e habilidades utilizadas
- React.js
- HTML
- CSS
- JavaScript
+- React.js
+- HTML
+- CSS
+- JavaScript
 
 ## Tempo de execução do projeto 2 dias e meio
 ## Itens avaliados:
