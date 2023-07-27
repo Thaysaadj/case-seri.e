@@ -10,7 +10,7 @@ export function Shelf() {
   const [items, setItems] = useState([
     {
       name: "Lorem Ipsum",
-      oldPrice: 12999,
+      oldPrice: 1299,
       selingPrice: 10999,
       img: ImageOrigin,
       availability: true
@@ -18,24 +18,24 @@ export function Shelf() {
 
     {
       name: "Lorem Ipsum",
-      oldPrice: 12999,
-      selingPrice: 10999,
+      oldPrice: 1299,
+      selingPrice: 1099,
       img: ImageOrigin,
       availability: true
     },
 
     {
       name: "Lorem Ipsum",
-      oldPrice: 12999,
-      selingPrice: 10999,
+      oldPrice: 1299,
+      selingPrice: 1099,
       img: ImageOrigin,
       availability: true
     },
 
     {
       name: "Lorem Ipsum",
-      oldPrice: 12999,
-      selingPrice: 10999,
+      oldPrice: 1299,
+      selingPrice: 1099,
       img: ImageOrigin,
       availability: false
     },
@@ -71,19 +71,21 @@ export function Shelf() {
           <img src={ChevronRight} alt="" />
         </div>
       </div>
-      <div className={`${styles.containerShelf} ${items[0].availability ? "" : styles.available}`}>
+      <div className={styles.containerShelf}>
         <div className={styles.shelf}>
           {
-            items.map((item) => {
+            items.map((item, index) => {
               return (
+                <div>
                 <Card
+                  key={index}
                   name={item.name}
                   oldPrice={item.oldPrice}
                   selingPrice={item.selingPrice}
                   img={item.img}
                   availability={item.availability}
-
                 />
+                </div>
               )
             })
           }

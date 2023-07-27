@@ -42,11 +42,11 @@
 }
 
 .inputNews {
+  width: 31.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  fill: red;
 }
 
 .inputNews svg {
@@ -57,7 +57,7 @@
 }
 
 .inputNews input {
-  width: 738px;
+  width: 100%;
   padding: 8px 50px;
   flex-shrink: 0;
   border: 1px solid #909090;
@@ -76,6 +76,7 @@ input::placeholder{
 }
 
 .buttonNews button {
+  cursor: pointer;
   background: #000;
   display: flex;
   border: none;
@@ -83,4 +84,16 @@ input::placeholder{
   color: #fff;
   border-radius: 5px;
 
+}
+
+@media (max-width:768px){
+  .containerNews{
+    flex-direction: column;
+  }
+
+  .contentTextNews{
+    justify-self: center;
+    align-items: center;
+
+  }
 }

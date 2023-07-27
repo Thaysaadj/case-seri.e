@@ -1,8 +1,13 @@
-.sectionCard{
+.sectionCard {
   width: 100%;
 }
 
-.infoCard{
+.available .imageCard > img {
+  opacity: 0.50;
+  cursor: pointer;
+}
+
+.infoCard {
   gap: 6px;
   align-items: flex-start;
   display: flex;
@@ -12,16 +17,24 @@
   height: 598px;
 }
 
-.imageCard{
+.imageCard {
   width: 338px;
   height: 530px;
+  position: relative;
+  cursor: pointer;
 }
 
-.imageCard img{
+.soldOut {
+  position: absolute;
+  top: 40%;
+  z-index: 9999;
+}
+
+.imageCard img {
   width: 100%;
 }
 
-.containerText{
+.containerText {
   width: 338px;
   height: auto;
 }
