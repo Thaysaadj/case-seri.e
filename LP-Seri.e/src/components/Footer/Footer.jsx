@@ -11,6 +11,7 @@ export function Footer() {
         <div className={styles.containerLogo}>
           <img src={LogoBlack} alt="logo-black" />
         </div>
+
         <div className={styles.containerInstitucional}>
           <p className={styles.titleIntitucional}>Precisa de Ajuda ?</p>
           <p className={styles.textInstitucional}>Sobre</p>
@@ -25,6 +26,7 @@ export function Footer() {
             <img src={Facebook} alt="facebook" />
           </div>
         </div>
+
       </section>
       <PreFooter />
     </>

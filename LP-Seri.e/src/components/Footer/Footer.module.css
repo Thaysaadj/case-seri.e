@@ -17,8 +17,6 @@
   width: 100%;
 }
 
-.containerInstitucional {}
-
 .titleIntitucional {
   color: #000;
   font-family: Arimo;
@@ -42,9 +40,6 @@
   margin-bottom: .4375rem;
 }
 
-.containerFooterMidias{
-
-}
 
 .titleMidias{
   color: #000;
@@ -61,4 +56,24 @@
 .containerMidias img:nth-child(1) {
   margin-right: 10px;
 
+}
+
+@media (max-width:520px){
+  .sectionFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .containerInstitucional{
+    text-align: center;
+  }
+
+  .containerFooterMidias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
